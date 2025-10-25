@@ -1,6 +1,4 @@
-streamlit
-numpy
-matplotlib
-io
-pandas
-random
+streamlit>=1.39.0
+matplotlib>=3.9.0
+numpy>=1.26.0
+pandas>=2.2.0
