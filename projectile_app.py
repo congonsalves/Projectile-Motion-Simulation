@@ -35,3 +35,13 @@ st.write(f"**Range:** {(v0**2 * np.sin(2*theta)) / g:.2f} m")
 
 st.caption("Built with Streamlit and Python — by a physics teacher ✨")
 
+st.markdown("---")  # optional separator
+st.header("💎 Upgrade to Premium")
+
+# Replace the URL with your actual Gumroad link
+gumroad_url = "https://congonsalves.gumroad.com/l/projectilemotion?_gl=1*1nnxrnq*_ga*MTQ4MTQ0MDQ4LjE3NjE0MjgyODY.*_ga_6LJN6D94N6*czE3NjE0MjgyODUkbzEkZzEkdDE3NjE0MzMwMTQkajYwJGwwJGgw"
+
+if st.button("🚀 Get the Premium Version on Gumroad"):
+    # Open the link in a new browser tab
+    js = f"window.open('{gumroad_url}')"
+    st.components.v1.html(f"<script>{js}</script>")
